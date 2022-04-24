@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>JoshPro LLC's Home Page</title>
+<!-- TemplateEndEditable -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link rel="Shortcut Icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<!-- TemplateBeginEditable name="bodytag" --><body>
+<!-- TemplateEndEditable -->
+
+<div class="container">
+<?php require_once('header.php'); ?>
+
+	<div class="bigbox greygradienttall boxtype">
+			<div class="corner TL"></div>
+			<div class="corner TR"></div>
+			<div class="corner BL"></div>
+			<div class="corner BR"></div>
+			<!-- TemplateBeginEditable name="bigbox_rightimage" --><img src="../images/driving.jpg" alt="" width="191" height="255" class="fltrt"/><!-- TemplateEndEditable -->
+<H1><!-- TemplateBeginEditable name="Box Header" -->Box Header<!-- TemplateEndEditable --></H1>
+            <!-- TemplateBeginEditable name="bigbox_text" -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rhoncus sollicitudin odio eu condimentum. Vivamus tellus ligula, ultricies sit amet dapibus sed, egestas ac neque. Suspendisse ut lectus vitae ante scelerisque vestibulum. Pellentesque dignissim adipiscing venenatis. Maecenas vestibulum auctor augue sed vestibulum. Mauris posuere felis quis mi porta malesuada. Ut posuere lacus vitae est consequat vitae faucibus sem rutrum. Aliquam tempus ullamcorper posuere. Fusce non turpis ante. Sed quis est eget urna dictum sodales. Curabitur sit amet tellus a ante lobortis ornare. In a lectus sed ligula dignissim volutpat. Ut nisi neque, porta a cursus blandit, egestas ac mi.</p>
+            <!-- TemplateEndEditable --></div>
+	
+<!--End container div--></div>
+
+</body>
+</html>

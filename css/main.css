@@ -1,0 +1,613 @@
+@font-face {
+    font-family: 'minimasskregular';
+    src: url('../includes/minis-webfont.eot');
+    src: url('../includes/minis-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../includes/minis-webfont.woff') format('woff'),
+         url('../includes/minis-webfont.ttf') format('truetype'),
+         url('../includes/minis-webfont.svg#minimasskregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p { font-family: 'minimasskregular', Arial, sans-serif; }
+
+body {
+	background: #4c4c4c;
+	color: #000;
+	font-family: 'minimasskregular', Arial, sans-serif;
+	padding: 20px 0 40px;
+}
+
+.container {
+	background: #e6e6e6;
+	/*height: 1299px;*/
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:30px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: center;
+}
+
+h2 {
+	padding: 20px 0 0;
+	text-align: left;
+	font-weight: normal;
+	font-style:italic;
+}
+
+p {
+	/*overflow: hidden;*/
+	padding: 10px 0;
+	font-size: 17px;
+}
+
+.container_12 {
+	background: #fff url(../../img/12_col.gif) repeat-y;
+	margin-bottom: 20px;
+}
+
+.container_16 {
+	background: #fff url(../../img/16_col.gif) repeat-y;
+}
+
+.container_24 {
+	background: #fff url(../../img/24_col.gif) repeat-y;
+}
+.header {
+height: 400px;
+}
+
+#main_nav {
+	height: 99px;
+	background: #e6e6e6;
+	margin: 0px;
+	padding: 0;
+	position: relative;
+	top: -320px;
+	color: #000;
+}
+#main_nav li {
+    margin: 0; 
+	padding: 0; 
+	list-style: none;
+    position: absolute; 
+	top: 512px;
+	z-index: 5;
+}
+#main_nav li span {display: none;}
+
+#main_nav li, #main_nav a {
+    height: 99px; 
+	display: block;
+}
+  
+  #home_button {left: 92px; width: 88px;
+	background:transparent url(http://www.joshhaines.com/joshpro/images/home_button_a.jpg) 0 0 no-repeat;}
+  #home_button a:hover {
+	background:url(http://www.joshhaines.com/joshpro/images/home_button_hover.jpg) 0px 0px no-repeat;}
+  #home_button a:active, #home li#home_button {
+	background:url(http://www.joshhaines.com/joshpro/images/home_button_active.jpg) 0px 0px no-repeat;}
+  
+  #about_button {left: 221px; width: 88px;
+	background:transparent url(http://www.joshhaines.com/joshpro/images/about_button_a.jpg) 0 0 no-repeat;}
+  #about_button a:hover {
+	background:url(http://www.joshhaines.com/joshpro/images/about_button_hover.jpg) 0px 0px no-repeat;}
+  #about_button a:active, #about li#about_button a {
+	background:url(http://www.joshhaines.com/joshpro/images/about_button_active.jpg) 0px 0px no-repeat;}
+  
+  #contact_button {left: 350px; width: 154px;
+  	background:transparent url(http://www.joshhaines.com/joshpro/images/contact_button_a.jpg) 0 0 no-repeat;}
+  #contact_button a:hover {
+	background:url(http://www.joshhaines.com/joshpro/images/contact_button_hover.jpg) 0px 0px no-repeat;}
+  #contact_button a:active, #contact li#contact_button a {
+	background:url(http://www.joshhaines.com/joshpro/images/contact_button_active.jpg) 0px 0px no-repeat;}
+	   
+  #work_button {left: 577px; width: 90px;
+    background:transparent url(http://www.joshhaines.com/joshpro/images/work_button_a.jpg) 0 0 no-repeat;}
+  #work_button a:hover {
+	background:url(http://www.joshhaines.com/joshpro/images/work_button_hover.jpg) 0px 0px no-repeat;}
+  #work_button a:active, #work li#work_button a {
+	background:url(http://www.joshhaines.com/joshpro/images/work_button_active.jpg) 0px 0px no-repeat;}
+ 
+  #news_button{left: 708px; width: 87px;
+    background:transparent url(http://www.joshhaines.com/joshpro/images/news_button_a.jpg) 0 0 no-repeat;}
+  #news_button a:hover {
+	background:url(http://www.joshhaines.com/joshpro/images/news_button_hover.jpg) 0px 0px no-repeat;}
+  #news_button a:active, #news li#news_button a {
+	background:url(http://www.joshhaines.com/joshpro/images/news_button_active.jpg) 0px 0px no-repeat;}
+	
+  #links_button{left: 839px; width: 85px;
+    background:transparent url(http://www.joshhaines.com/joshpro/images/links_button_a.jpg) 0 0 no-repeat;}
+  #links_button a:hover {
+	background:url(http://www.joshhaines.com/joshpro/images/links_button_hover.jpg) 0px 0px no-repeat;}
+  #links_button a:active, #links li#links_button a {
+	background:url(http://www.joshhaines.com/joshpro/images/links_button_active.jpg) 0px 0px no-repeat;}  
+
+/*Header Slices from Photoshop*/
+
+#Table_01, #Table_02 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1020px;
+	height:1298px;
+}
+
+#header-top {
+	position:relative;
+	left:36px;
+	top:-90px;
+	width:949px;
+	height:184px;
+}
+
+#index-05 {
+	position:relative;
+	left:36px;
+	top:-90px;
+	width:56px;
+	height:99px;
+}
+
+#home-button {
+	position:absolute;
+	left:92px;
+	top:217px;
+	width:88px;
+	height:99px;
+}
+
+#index-07 {
+	position:relative;
+	left:180px;
+	top:-190px;
+	width:41px;
+	height:99px;
+}
+
+#about-button {
+	position:absolute;
+	left:221px;
+	top:217px;
+	width:88px;
+	height:99px;
+}
+
+#index-09 {
+	position:relative;
+	left:309px;
+	top:-289px;
+	width:41px;
+	height:99px;
+}
+
+#contact-button {
+	position:absolute;
+	left:350px;
+	top:217px;
+	width:154px;
+	height:99px;
+}
+
+#index-11 {
+	position:relative;
+	left:504px;
+	top:-388px;
+	width:73px;
+	height:99px;
+}
+
+#work-button {
+	position:absolute;
+	left:577px;
+	top:217px;
+	width:90px;
+	height:99px;
+}
+
+#index-13 {
+	position:relative;
+	left:667px;
+	top:-487px;
+	width:41px;
+	height:99px;
+}
+
+#news-button {
+	position:absolute;
+	left:708px;
+	top:217px;
+	width:87px;
+	height:99px;
+}
+
+#index-15 {
+	position:relative;
+	left:795px;
+	top:-586px;
+	width:44px;
+	height:99px;
+}
+
+#links-button {
+	position:absolute;
+	left:839px;
+	top:217px;
+	width:85px;
+	height:99px;
+}
+
+#index-17 {
+	position:relative;
+	left:924px;
+	top:-685px;
+	width:61px;
+	height:99px;
+}
+
+#header-bottom {
+	position:relative;
+	left:36px;
+	top:-685px;
+	width:949px;
+	height:75px;
+}
+
+
+/*End Header Slices from Photoshop*/
+/*Start Body Slices from Photoshop*/
+
+
+#rt_shortbox-right {
+	position:relative;
+	left:888px;
+	top:-2084px;
+	width:12px;
+	height:206px;
+}
+
+#lt_tallbox-center {
+	position:relative;
+	left:130px;
+	top:-965px;
+	width:1px;
+	height:353px;
+}
+
+#rt_shortbox-left {
+	position:relative;
+	left:520px;
+	top:-1671px;
+	width:12px;
+	height:206px;
+}
+
+#lt_tallbox-left {
+	position:relative;
+	left:119px;
+	top:-611px;
+	width:13px;
+	height:353px;
+}
+
+#lt_tallbox-right {
+	position:relative;
+	left:408px;
+	top:-1317px;
+	width:13px;
+	height:353px;
+}
+
+#rt_shortbox-center {
+	position:relative;
+	left:530px;
+	top:-1876px;
+	width:1px;
+	height:206px;
+}
+
+#lb_tallbox-left {
+	position:relative;
+	left:119px;
+	top:-1838px;
+	width:13px;
+	height:353px;
+}
+
+#lb_tallbox-center {
+	position:relative;
+	left:130px;
+	top:-2192px;
+	width:1px;
+	height:353px;
+}
+
+#lb_tallbox-right {
+	position:relative;
+	left:408px;
+	top:-2544px;
+	width:13px;
+	height:353px;
+}
+
+#rm_shortbox-left {
+	position:relative;
+	left:520px;
+	top:-3048px;
+	width:12px;
+	height:206px;
+}
+
+#rm_shortbox-center {
+	position:relative;
+	left:530px;
+	top:-3253px;
+	width:1px;
+	height:206px;
+}
+
+#rm_shortbox-right {
+	position:relative;
+	left:888px;
+	top:-3461px;
+	width:12px;
+	height:206px;
+}
+
+#rb_shortbox-left {
+	position:relative;
+	left:520px;
+	top:-3366px;
+	width:12px;
+	height:206px;
+}
+
+#rb_shortbox-center {
+	position:relative;
+	left:530px;
+	top:-3571px;
+	width:1px;
+	height:206px;
+}
+
+#rb_shortbox-right {
+	position:relative;
+	left:888px;
+	top:-3779px;
+	width:12px;
+	height:206px;
+}
+
+/*End Body Slices from Photoshop*/
+#box-container {
+	position: relative;
+}
+.box h1 {
+	color:#00cfff;
+}
+/*Box CSS*/
+.boxTL {
+	margin-left: 100px;
+	position: relative;
+	height: 350px;
+	width: 292px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.boxTR {
+	margin-left: 521px;
+	position: relative;
+	height: 200px;
+	width: 371px;
+	float: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.boxMR {
+	margin-left: 521px;
+	margin-top: 100px;
+	position: relative;
+	height: 200px;
+	width: 371px;
+	flaot: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.boxBL {
+	margin-left: 100px;
+	margin-top: -50px;
+	position: relative;
+	height: 350px;
+	width: 292px;
+	float: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.boxBR {
+	margin-left: 521px;
+	margin-top: -200px;
+	position: relative;
+	height: 200px;
+	width: 371px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.bigbox {
+	margin-left: 100px;
+	position: relative;
+	height: 350px;
+	width: 780px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.bigcontactbox {
+	margin-left: 100px;
+	position: relative;
+	height: 500px;
+	width: 780px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.bigworkbox {
+	margin-left: 100px;
+	position: relative;
+	height: 500px;
+	width: 780px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom:20px;
+}
+.smallbox {
+	margin-left: 100px;
+	margin-top: 30px;
+	position: relative;
+	height: 200px;
+	width: 780px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.red {
+	background: #cc0000;
+	color: #fff;
+}
+.greygradienttall {
+	background: url(http://www.joshhaines.com/joshpro/images/tallbox_center.png)  bottom repeat-x;
+	color: #fff;
+}
+.greygradientshort {
+	background: url(http://www.joshhaines.com/joshpro/images/shortbox_center.png)  bottom repeat-x;
+	color: #fff;
+}
+.greygradientcontact {
+	background: url(http://www.joshhaines.com/joshpro/images/contactbox_center.png)  bottom repeat-x;
+	color: #fff;
+}
+.corner {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background:url(http://www.joshhaines.com/joshpro/images/corners.png) no-repeat;
+}
+.TL {
+	top: 0;
+	left: 0;
+	background-position: 0 0;
+}
+.TR {
+	top: 0;
+	right: 0;
+	background-position: 100% 0;
+}
+.BL {
+	bottom: 0;
+	left: 0;
+	background-position: 0 100%;
+}
+.BR {
+	bottom: 0;
+	right: 0;
+	background-position: 100% 100%;
+}
+.boxtype h1{
+	color: #00Cfff;
+	padding-top: 10px;
+	font-weight: 700;
+	font-size: 20px;
+	
+}
+.boxtype li{
+	padding-bottom: 8px;
+}
+.boxtype p{
+	font-size:16px;
+	color:#e6e6e6;
+	position: relative;
+	/*bottom: 20px;*/
+	padding-top: 30px;
+}
+.boxtype a:link{
+	color:#e6e6e6;
+	text-decoration:underline;
+}
+.boxtype a:hover{
+	color:#00Cfff;
+	text-decoration:underline;
+}
+.boxtype a:active{
+	color:#e6e6e6;
+	text-decoration:underline;
+}
+.boxtype a:visited{
+	color:#e6e6e6;
+	text-decoration:underline;
+}
+.boxtype h1 p{
+	font-size:16px;
+	color:#e6e6e6;
+	position: relative;
+	bottom: 20px;
+	padding-top: 30px;
+}
+.boxtype h1 a:link{
+	color:#00Cfff;
+	text-decoration:underline;
+}
+.boxtype h1 a:hover{
+	color:#00Cfff;
+	text-decoration:underline;
+}
+.boxtype h1 a:active{
+	color:#00Cfff;
+	text-decoration:underline;
+}
+.boxtype h1 a:visited{
+	color:#00Cfff;
+	text-decoration:underline;
+}
+.fltrt{
+	float: right;
+	clear:both;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.fltlt{
+	float: left;
+	clear:both;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.leftlink{
+	float:left;
+}
+.rightlink{
+	float:right;
+}
+.thumbnail{
+	margin-left: auto;
+	margin-right: auto;
+}
+#bottomtext{
+	bottom:20px;
+	text-align:center;
+}
+#whymetext{
+	padding-top:0px;
+}
+.bigworkbox img{
+	border:1px solid #999;
+}

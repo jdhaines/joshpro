@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+form {
+	
+	margin:15px auto 10px 20px;
+}
+label {
+	display:block;
+	font-weight:bold;
+}
+textarea {
+	width:400px;
+	height:150px;
+}
+.textInput {
+	width:250px;
+}
+.chkRad {
+	float: left;
+	margin-bottom: 15px;
+	margin-left: 50px;
+}
+.clearIt {
+	clear: both;
+}
+.warning {
+	font-weight: bold;
+	color: #F00;
+}
+#send {
+	border-color: #00CFFF;
+}
